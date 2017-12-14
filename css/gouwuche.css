@@ -1,0 +1,259 @@
+/*
+* @Author: 陇锦
+* @Date:   2017-12-09 23:40:32
+* @Last Modified by:   陇锦
+* @Last Modified time: 2017-12-14 21:11:41
+*/
+@import url('base.css');
+
+header{
+	height: 0.44rem;
+	background: #00a4ff;
+
+}
+
+body{
+	background: #f5f5f5;
+}
+
+.zuocekongjian{
+	display: block;
+	float: left;
+	width: 0.44rem;
+	height: 0.44rem;
+	position: relative;
+/* 	background: red; */
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 499968 */
+  src: url('https://at.alicdn.com/t/font_499968_xmg9dh0qrnxez5mi.eot');
+  src: url('https://at.alicdn.com/t/font_499968_xmg9dh0qrnxez5mi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_499968_xmg9dh0qrnxez5mi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_499968_xmg9dh0qrnxez5mi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_499968_xmg9dh0qrnxez5mi.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: "iconfont";
+
+}
+
+.tjdx{
+	display: block;
+	margin: 0 auto;
+	width: 0.16rem;
+	height: 0.16rem;
+	font-size: 0.16rem;
+	line-height: 0.44rem;
+	text-align: center;
+	color: #fff;
+}
+
+.gouwuzhe{
+	display: block;
+	float: left;
+	font-size: 0.18rem;
+/* 	text-align: center; */
+	line-height: 0.44rem;
+	position: absolute;
+	top: 0;
+	left: 43%;
+	color: #fff;
+/* 	margin-left: 0.5rem; */
+
+}
+
+.shanjiamz{
+	height: 0.47rem;
+	border-bottom: 0.01rem solid #d5d3d3;
+	overflow: hidden;
+}
+
+.yuanwei454{
+	width: 2.53rem;
+	height: 0.14rem;
+/* 	background: black; */
+	float: left;
+	margin-left: 0.15rem;
+	margin-top: 0.17rem;
+
+}
+
+.yuanwei4541{
+	display: block;
+	font-size: 0.14rem;
+	line-height: 0.14rem;
+	float: left;
+
+}
+
+.ljt{
+	display: block;
+	width: 0.2rem;
+	height: 0.2rem;
+/* 	background: red; */
+	float: right;
+	margin-top: 0.14rem;
+	margin-right: 0.14rem;
+}
+
+.daixaotiaoji{
+	font-size: 0.2rem;
+	line-height: 0.2rem;
+	text-align: center;
+}
+
+.shanpxqt{
+	display: block;
+	height: 0.63rem;
+	background: #ffffff;
+	border-bottom: 0.01rem solid #d5d3d3;
+
+}
+
+.hezi154{
+	width: 2.88rem;
+	height: 0.45rem;
+/* 	background: pink; */
+	margin-left: 0.15rem;
+	float: left;
+	margin-top: 0.1rem;
+}
+
+.chanptupian{
+	display: block;
+	float: left;
+	height: 0.45rem;
+	width: 0.45rem;
+}
+
+.jidanjianb{
+	width: 2.3rem;
+	height: 0.14rem;
+	float: left;
+	margin-left: 0.1rem;
+	font-size: 0.14rem;
+	color: #000;
+}
+
+.fenliang154{
+	float: left;
+	font-size: 0.12rem;
+	color: #a1a1a1;
+	margin-left: 0.1rem;
+	margin-top: 0.16rem;
+}
+
+.jiage44587{
+	height: 0.45rem;
+	width: 0.26rem;
+/* 	background: red; */
+	float: right;
+	margin-right: 0.13rem;
+	margin-top: 0.1rem;
+}
+
+.chenghao{
+	width: 0.11rem;
+	height: 0.1rem;
+	margin-top: 0.03rem;
+/* 	background: yellow; */
+	font-size: 0.1rem;
+	line-height: 0.1rem;
+	text-align: center;
+	float: right;
+}
+
+.yangshiba{
+	width: 0.26rem;
+	height: 0.11rem;
+	font-size: 0.11rem;
+	margin-top: 0.33rem;
+	color: #ff6000;
+	font-weight: bold;
+}
+
+.canhe{
+	height: 0.59rem;
+	background: #ffffff;
+	border-bottom: 0.01rem solid #d5d3d3;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 0.15rem;
+	padding-right: 0.15rem;
+	align-items: center;
+}
+
+.canhe145{
+	font-size: 0.14rem;
+}
+
+.canhefei{
+
+	color: #ff6000;
+	font-size: 0.12rem;
+	font-weight: bold;
+}
+
+.canhe1{
+	height: 0.59rem;
+	background: #ffffff;
+/* 	border-bottom: 0.01rem solid #d5d3d3; */
+	display: flex;
+	justify-content: space-between;
+	padding-left: 0.15rem;
+	padding-right: 0.15rem;
+	align-items: center;
+}
+
+.canhe1456{
+	font-size: 0.14rem;
+	color: #ff6000;
+}
+
+.zhifiyouhui{
+	width: 1.33rem;
+	height: 0.32rem;
+/* 	background: black; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.wushijiuyouna{
+	width: 0.59rem;
+	height: 0.13rem;
+/* 	background: red; */
+}
+
+
+.zhifuanjhhh{
+	width: 0.62rem;
+	height: 0.32rem;
+	background:#29d96c;
+	border-radius: 0.02rem;
+	font-size: 0.12rem;
+	color: #ffffff;
+	line-height: 0.32rem;
+	text-align: center;
+}
+
+.heji{
+	display: block;
+	float: left;
+	font-size: 0.13rem;
+	color: #000;
+	line-height: 0.13rem;
+}
+
+
+.jiage1488{
+	display: block;
+	float:right;
+	font-size: 0.13rem;
+	color: #000;
+	line-height: 0.13rem;
+	color: #ff6000;
+
+}
+

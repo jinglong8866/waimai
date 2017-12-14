@@ -1,0 +1,427 @@
+/*
+* @Author: 陇锦
+* @Date:   2017-12-10 22:52:29
+* @Last Modified by:   陇锦
+* @Last Modified time: 2017-12-14 21:12:23
+*/
+@import url('base.css');
+body{
+	background: #f5f5f5;
+
+}
+
+header{
+	height: 1.35rem;
+	width: 100%;
+	background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+	padding-top: 0.07rem;
+}
+
+body{
+	background: #f5f5f5;
+}
+
+
+@font-face {
+  font-family: 'iconfont';  /* project id 499968 */
+  src: url('https://at.alicdn.com/t/font_499968_x95l181tw1wwb3xr.eot');
+  src: url('https://at.alicdn.com/t/font_499968_x95l181tw1wwb3xr.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_499968_x95l181tw1wwb3xr.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_499968_x95l181tw1wwb3xr.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_499968_x95l181tw1wwb3xr.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: "iconfont";
+
+}
+
+.dingbuanjian{
+	width: 3.45rem;
+	height: 0.22rem;
+/* 	background: black; */
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.zuomiananjian{
+	display: block;
+	width: 0.22rem;
+	height: 0.22rem;
+/* 	background: red; */
+
+}
+
+.youmiananjian{
+	display: block;
+	width: 0.22rem;
+	height: 0.22rem;
+/* 	background: green; */
+}
+
+.ictiaojie{
+	font-size: 0.22rem;
+	color: #fff;
+	text-align: center;
+
+}
+.shangjiadatou{
+	width: 3.45rem;
+	height: 0.66rem;
+/* 	background: pink; */
+	margin: 0 auto;
+	margin-top: 0.18rem;
+}
+
+
+.tupiankuang{
+	width:0.66rem;
+	height: 0.66rem;
+/* 	background: red; */
+	float: left;
+}
+.yuanwei15{
+	width:0.66rem;
+	height: 0.66rem;
+
+}
+
+
+.dianpm{
+	height: 0.63rem;
+	width: 2.63rem;
+/* 	background: yellow; */
+	margin-left: 0.1rem;
+	float: left;
+}
+
+h1{
+	color: #fff;
+}
+
+.jiage{
+	height: 0.12rem;
+	font-size: 0.12rem;
+	color:#fff;
+	line-height: 0.12rem;
+	padding-top: 0.07rem;
+}
+
+.gonggao{
+	height: 0.12rem;
+	font-size: 0.12rem;
+	color:#fff;
+	line-height: 0.12rem;
+	padding-top: 0.07rem;
+
+}
+
+.huodong{
+	display: block;
+	height: 0.15rem;
+	width: 3.45rem;
+/* 	background: red; */
+	margin: 0 auto;
+	margin-top: 0.07rem;
+
+}
+
+.manjianlogo{
+	width: 0.15rem;
+	height: 0.15rem;
+	background: #f55d5d;
+	font-size: 0.1rem;
+	text-align: center;
+	line-height: 0.15rem;
+	color: #fff;
+	float: left;
+	border-radius: 0.02rem;
+}
+
+.manjainshuom{
+	display: block;
+	float: left;
+	height: 0.12rem;
+	font-size: 0.12rem;
+	color: #fff;
+	margin-left: 0.05rem;
+	line-height: 0.15rem;
+	text-align: center;
+}
+
+.liahuodong{
+	height: 0.12rem;
+	float: right;
+	font-size: 0.12rem;
+	color: #fff;
+	line-height: 0.15rem;
+	text-align: center;
+}
+
+/* 商品菜单开始 */
+.caidan123{
+	height: 0.41rem;
+	border-bottom: 2px solid #efefef;
+	background:#fff;
+
+}
+
+.sangeanniu{
+	display: block;
+	float: left;
+	width: 33.3%;
+	height: 100%;
+/* 	background: red; */
+
+}
+
+.dianpuwenzi{	
+	display: block;
+	width: 0.28rem;
+	margin: 0 auto;
+	font-size: 0.12rem;
+	color: #666666;
+	line-height: 0.39rem;
+	text-align: center;
+
+	
+}
+.dianpuwenzi1{	
+	display: block;
+	width: 0.28rem;
+	margin: 0 auto;
+	font-size: 0.12rem;
+	color: #2e94f2;
+	line-height: 0.39rem;
+	text-align: center;
+
+	
+}
+
+.xiahuaxia{
+	box-sizing: border-box;
+	border-bottom: 0.02rem solid #2e94f2;
+
+}
+/* 商品菜单结束 */
+
+.shangjiaxiamian{
+/* 	height: 4.6rem; */
+	background: #fff;
+}
+
+.zuoce{
+	width: 20%;
+/* 	height: 4.6rem; */
+	float: left;
+	background: #f8f8f8;
+}
+
+
+.youmian{
+	width: 80%;
+/* 	height: 4.6rem; */
+	background: black;
+	float: left;
+}
+.rexiao{
+	display: block;
+/* 	width: 0.78rem; */
+	height: 0.4rem;
+	background: #fff;
+	font-size: 0.13rem;
+	color: #000;
+	line-height: 0.4rem;
+	text-align: center;
+}
+
+.rexiao12{
+	display: block;
+/* 	width: 0.78rem; */
+	height: 0.4rem;
+/* 	background: #fff; */
+	font-size: 0.13rem;
+	color: #000;
+	line-height: 0.4rem;
+	text-align: center;
+	border-bottom: 0.01rem solid #cfcece;
+
+}
+
+.shangpprexiao{
+	display: block;
+	background: #fff;
+	height: 1.14rem;
+
+}
+.shangpprexiao1{
+	display: block;
+	background: #fff;
+	height: 1.14rem;
+	margin-bottom: 0.5rem;
+
+}
+
+.xiaoheiz458{
+	width: 2.87rem;
+	height: 1.03rem;
+/* 	background: red; */
+    float: right;
+    margin-top: 0.1rem;
+    border-bottom: 0.01rem solid #cfcece;
+
+}
+
+.tupian{
+	width: 0.76rem;
+	height: 0.76rem;
+/* 	background: green; */
+	float: left;
+}
+
+.tp1{
+	width: 0.76rem;
+	height: 0.76rem;
+
+}
+
+.wenzi1455{
+	float: left;
+	width: 1.96rem;
+	height: 0.76rem;
+	margin-left: 0.05rem;
+/* 	background: green; */
+}
+
+.caipmz{
+	height: 0.14rem;
+	font-size: 0.14rem;
+	font-weight: bold;
+	color: #000;
+}
+
+.jieshao{
+	height: 0.12rem;
+	font-size: 0.12rem;
+	color: #999999;
+	margin-top: 0.07rem;
+}
+
+.yuexiaoliang{
+	height: 0.12rem;
+	font-size: 0.12rem;
+	color: #8b8b8b;
+	margin-top: 0.07rem;
+}
+
+.jiarugouwuche{
+	height: 0.16rem;
+	width: 1.96rem;
+/* 	background: yellow; */
+	margin-top: 0.08rem;
+}
+
+.jiagebiaoqian{
+	width: 0.43rem;
+	font-size: 0.14rem;
+	height: 0.16rem;
+	color: #ff7113;
+	line-height: 0.16rem;
+	text-align: center;
+    font-weight: bold;
+    float: left;
+}
+
+.jiahao1544{
+    width: 0.16rem;
+    height: 0.16rem;
+	float: right;
+	background: #2395ff;
+	border-radius: 50%;
+	font-size: 0.13rem;
+	line-height: 0.16rem;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}
+
+.dibkj{
+	height: 0.5rem;
+	width: 3.75rem;
+	background: #505051;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 999;
+
+
+}
+
+.gouwuche{
+	display: block;
+	float: left;
+	width: 0.5rem;
+	height: 0.5rem;
+	background: #3190e8;
+	box-sizing: border-box;
+	border:0.05rem solid #444444;
+	border-radius: 50%;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 499968 */
+  src: url('http://at.alicdn.com/t/font_499968_1g6rax8zq2sp2e29.eot');
+  src: url('http://at.alicdn.com/t/font_499968_1g6rax8zq2sp2e29.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_499968_1g6rax8zq2sp2e29.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_499968_1g6rax8zq2sp2e29.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_499968_1g6rax8zq2sp2e29.svg#iconfont') format('svg');
+}
+
+.iconfont{
+	font-family: "iconfont";
+
+}
+
+.tiaojie1544{
+	display: block;
+
+	font-size: 0.22rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.4rem;
+}
+
+.kjjg{
+	float: left;
+	height: 0.55rem;
+	width: 0.75rem;
+	margin-left: 0.1rem;
+
+}
+
+.jiage1544{
+	height: 0.23rem;
+	font-size: 0.23rem;
+	color: #fff;
+	font-weight:bold;
+}
+
+.psf789{
+	height: 0.13rem;
+	font-size: 0.13rem;
+	color: #fff;
+	margin-top: 0.1rem;
+}
+
+.qujiesuan487{
+	display: block;
+	float: right;
+	width: 1.04rem;
+	height: 0.5rem;
+	background: #4cd964;
+	font-size: 0.14rem;
+	line-height: 0.5rem;
+	text-align: center;
+	color: #fff;
+
+}

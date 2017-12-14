@@ -1,0 +1,232 @@
+/*
+* @Author: 陇锦
+* @Date:   2017-12-08 00:14:57
+* @Last Modified by:   陇锦
+* @Last Modified time: 2017-12-14 21:12:55
+*/
+@import url('base.css');
+body{
+	background: #f5f5f5;
+}
+header{
+	width: 100%;
+	height: 0.44rem;
+	background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+}
+
+.zuocekonggjian{
+	display: block;
+	width: 0.3rem;
+/* 	height: 100%; */
+/* 	background:red; */
+	padding-top: 0.14rem;
+	float: left;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 499968 */
+  src: url('//https:at.alicdn.com/t/font_499968_fbemi1xdm7mygb9.eot');
+  src: url('https://at.alicdn.com/t/font_499968_fbemi1xdm7mygb9.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_499968_fbemi1xdm7mygb9.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_499968_fbemi1xdm7mygb9.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_499968_fbemi1xdm7mygb9.svg#iconfont') format('svg');
+}
+
+.iconfont{
+	font-family: "iconfont";
+
+}
+
+.daxiao{
+	display: block;
+	margin-left: 0.14rem;
+
+	font-size: 0.16rem;
+	color: #fff;
+
+	/* margin-top: 0.14rem; */
+
+
+}
+
+.dingdan1{
+	height: 100%;
+	width: 0.7rem;
+/* 	background: black; */
+/*	float: left;*/
+	color: #ffffff;
+	text-align: center;
+	line-height:0.44rem;
+    margin: 0 auto;
+    
+}
+
+.toubox{
+	display: block;
+	height: 0.6rem;
+	width: 100%;
+	background:#fff;
+	border-bottom: 0.01rem solid #dbdada;
+	padding-top: 0.1rem;
+
+}
+
+.xiaohezi{
+	width: 3.42rem;
+	height: 0.5rem;
+	margin: 0 auto;
+	
+/* 	background: green; */
+}
+
+.touxiang{
+	float: left;
+	line-height: 0.5rem;
+	font-weight: bold;
+	font-size: 0.16rem;
+	color: #000;
+
+}
+
+.touxianghezi{
+    width: 0.63rem;
+    height: 100%;
+	float: right;
+/* 	background: red; */
+}
+
+.touxiang1{
+	display: block;
+	float: left;
+	width: 0.48rem;
+	height:0.48rem;
+	border:0.01rem solid #dcdcdc;
+    border-radius: 50%;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 499968 */
+  src: url('http://at.alicdn.com/t/font_499968_fbemi1xdm7mygb9.eot');
+  src: url('http://at.alicdn.com/t/font_499968_fbemi1xdm7mygb9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_499968_fbemi1xdm7mygb9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_499968_fbemi1xdm7mygb9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_499968_fbemi1xdm7mygb9.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: "iconfont";
+
+}
+
+.sjhh{
+	font-size: 0.06rem;
+	line-height: 0.5rem;
+	color: #dcdcdc;
+}
+
+.yonghuming{
+	display: block;
+	width: 100%;
+	height: 0.34rem;
+	background: #ffffff;
+	padding-top: 0.16rem;
+}
+
+.wenz4544{
+	width: 3.42rem;
+	height: 0.16rem;
+	background:#fff;
+	margin: 0 auto;
+
+}
+
+.yonghum{
+	font-size: 0.16rem;
+	color: #000;
+    font-weight: bold;
+    line-height: 0.16rem;
+    float: left;
+}
+.yonghum1{
+	font-size: 0.16rem;
+	color: #000;
+    font-weight: bold;
+    line-height: 0.16rem;
+    float: left;
+}
+
+
+
+
+.yonghumz109{
+	width: 0.78rem;
+	height:0.16rem;
+	/* background: green; */
+	float: right;
+}
+
+.yonghu1544{
+    float: left;
+    color: #000;
+	font-size: 0.14rem;
+	/* line-height: 0.16rem; */
+
+}
+
+.dhdd{
+	display: block;
+	float: right;
+/*	margin-top: 0.03rem;*/
+	font-size: 0.14rem;
+	color: #000;
+	line-height: 0.16rem;
+
+}
+
+.bangding{
+	height: 0.21rem;
+	width: 100%;
+	background: #f5f5f5;
+	padding-top: 0.18rem;
+
+}
+
+.bangdingwenzi{
+	width: 0.5rem;
+	height: 0.12rem;
+	font-size: 0.12rem;
+	line-height: 0.12rem;
+	color: #cecece;
+	margin-left: 0.14rem;
+
+}
+
+.yonghumz1091{
+	width: 1rem;
+	height:0.16rem;
+	/* background: green; */
+	float: right;
+}
+
+.yonghumz10912{
+	width: 0.6rem;
+	height:0.16rem;
+	/* background: green; */
+	float: right;
+}
+.yonghuming1{
+	margin-top: 0.2rem;
+	display: block;
+	width: 100%;
+	height: 0.34rem;
+	background: #ffffff;
+	padding-top: 0.16rem;
+}
+
+.tuichu{
+	width: 0.68rem;
+	height: 0.16rem;
+	color: #f94d34;
+	font-size: 0.16rem;
+	line-height: 0.16rem;
+	margin: 0 auto;
+}

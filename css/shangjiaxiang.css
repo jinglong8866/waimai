@@ -1,0 +1,416 @@
+/*
+* @Author: 陇锦
+* @Date:   2017-12-09 13:36:22
+* @Last Modified by:   陇锦
+* @Last Modified time: 2017-12-14 21:12:31
+*/
+@import url('base.css');
+
+header{
+	height: 1.35rem;
+	width: 100%;
+	background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+	padding-top: 0.07rem;
+}
+
+body{
+	background: #f5f5f5;
+}
+
+
+@font-face {
+  font-family: 'iconfont';  /* project id 499968 */
+  src: url('https://at.alicdn.com/t/font_499968_x95l181tw1wwb3xr.eot');
+  src: url('https://at.alicdn.com/t/font_499968_x95l181tw1wwb3xr.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_499968_x95l181tw1wwb3xr.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_499968_x95l181tw1wwb3xr.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_499968_x95l181tw1wwb3xr.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: "iconfont";
+
+}
+
+.dingbuanjian{
+	width: 3.45rem;
+	height: 0.22rem;
+/* 	background: black; */
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.zuomiananjian{
+	display: block;
+	width: 0.22rem;
+	height: 0.22rem;
+/* 	background: red; */
+
+}
+
+.youmiananjian{
+	display: block;
+	width: 0.22rem;
+	height: 0.22rem;
+/* 	background: green; */
+}
+
+.ictiaojie{
+	font-size: 0.22rem;
+	color: #fff;
+	text-align: center;
+
+}
+.shangjiadatou{
+	width: 3.45rem;
+	height: 0.66rem;
+/* 	background: pink; */
+	margin: 0 auto;
+	margin-top: 0.18rem;
+}
+
+
+.tupiankuang{
+	width:0.66rem;
+	height: 0.66rem;
+/* 	background: red; */
+	float: left;
+}
+.yuanwei15{
+	width:0.66rem;
+	height: 0.66rem;
+
+}
+
+
+.dianpm{
+	height: 0.63rem;
+	width: 2.63rem;
+/* 	background: yellow; */
+	margin-left: 0.1rem;
+	float: left;
+}
+
+h1{
+	color: #fff;
+}
+
+.jiage{
+	height: 0.12rem;
+	font-size: 0.12rem;
+	color:#fff;
+	line-height: 0.12rem;
+	padding-top: 0.07rem;
+}
+
+.gonggao{
+	height: 0.12rem;
+	font-size: 0.12rem;
+	color:#fff;
+	line-height: 0.12rem;
+	padding-top: 0.07rem;
+
+}
+
+.huodong{
+	display: block;
+	height: 0.15rem;
+	width: 3.45rem;
+/* 	background: red; */
+	margin: 0 auto;
+	margin-top: 0.07rem;
+
+}
+
+.manjianlogo{
+	width: 0.15rem;
+	height: 0.15rem;
+	background: #f55d5d;
+	font-size: 0.1rem;
+	text-align: center;
+	line-height: 0.15rem;
+	color: #fff;
+	float: left;
+	border-radius: 0.02rem;
+}
+
+.manjainshuom{
+	display: block;
+	float: left;
+	height: 0.12rem;
+	font-size: 0.12rem;
+	color: #fff;
+	margin-left: 0.05rem;
+	line-height: 0.15rem;
+	text-align: center;
+}
+
+.liahuodong{
+	height: 0.12rem;
+	float: right;
+	font-size: 0.12rem;
+	color: #fff;
+	line-height: 0.15rem;
+	text-align: center;
+}
+
+/* 商品菜单开始 */
+.caidan123{
+	height: 0.41rem;
+	border-bottom: 2px solid #efefef;
+	background:#fff;
+
+}
+
+.sangeanniu{
+	display: block;
+	float: left;
+	width: 33.3%;
+	height: 100%;
+/* 	background: red; */
+
+}
+
+.dianpuwenzi{	
+	display: block;
+	width: 0.28rem;
+	margin: 0 auto;
+	font-size: 0.12rem;
+	color: #666666;
+	line-height: 0.39rem;
+	text-align: center;
+
+	
+}
+.dianpuwenzi1{	
+	display: block;
+	width: 0.28rem;
+	margin: 0 auto;
+	font-size: 0.12rem;
+	color: #2e94f2;
+	line-height: 0.39rem;
+	text-align: center;
+
+	
+}
+
+.xiahuaxia{
+	box-sizing: border-box;
+	border-bottom: 0.02rem solid #2e94f2;
+
+}
+/* 商品菜单结束 */
+
+.peisongdahezi{
+	height: 1.12rem;
+	background: #fff;
+	overflow: hidden;
+/* 	padding-top: 0.21rem; */
+}
+
+.xiaohezi125{
+	height: 0.66rem;
+	width: 3.51rem;
+	/* background: pink; */
+	margin: 0 auto;
+	margin-top: 0.21rem;
+/* 	padding-top: 0.21rem; */
+}
+
+.huodong{
+	color: #000;
+	font-size: 0.14rem;
+}
+
+.psxq{
+    display: block;
+	height: 0.12rem;
+	margin-top: 0.12rem;
+	font-size: 0.12rem;
+	color: #666666;
+
+}
+
+.peisongmo{
+	display: block;
+	height: 0.12rem;
+	margin-top: 0.12rem;
+	font-size: 0.12rem;
+	color: #666666;
+}
+
+.huodongfuw{
+	height: 1.04rem;
+	background: #fff;
+	margin-top: 0.11rem;
+	overflow: hidden;
+}
+
+.xiaohuodfuqu{
+	width: 3.51rem;
+	height: 0.66rem;
+	margin: 0 auto;
+	margin-top: 0.21rem;
+/* 	background: red; */
+
+}
+
+.dahezbox{
+	height: 0.15rem;
+/* 	background: pink; */
+    margin-top: 0.2rem;
+}
+
+.zhekou{
+	display: block;
+	float: left;
+	width: 0.15rem;
+	height: 0.15rem;
+	font-size: 0.1rem;
+	line-height: 0.15rem;
+	text-align: center;
+	background: #f27575;
+	color: #fff;
+	border-radius: 0.02rem;
+}
+
+.zhekouxinxi{
+	font-size: 0.12rem;
+	color: #666666;
+	float: left;
+	margin-left: 0.06rem;
+}
+
+.dahezbox1{
+	height: 0.15rem;
+/* 	background: pink; */
+    margin-top: 0.03rem;
+}
+
+.zhekou1{
+	display: block;
+	float: left;
+	width: 0.15rem;
+	height: 0.15rem;
+	font-size: 0.1rem;
+	line-height: 0.15rem;
+	text-align: center;
+	background: #78be48;
+	color: #fff;
+	border-radius: 0.02rem;
+}
+
+
+.shangjiadatu{
+	height: 1.38rem;
+	background: #fff;
+	margin-top: 0.11rem;
+	overflow: hidden;
+}
+
+.xiaohezi1544{
+	width: 3.51rem;
+	height: 1.02rem;
+/* 	background: pink; */
+	margin: 0 auto;
+	margin-top: 0.21rem;
+}
+
+.tupaindakuang{
+	height: 0.8rem;
+/* 	background: red; */
+	margin-top: 0.05rem;
+}
+
+.xiaohezi4577{
+	display: block;
+	float: left;
+/* 	background: green; */
+	margin-right:0.07rem;
+	width: 0.8rem;
+	height: 0.8rem;
+
+}
+
+.shijingtujj{
+	width: 0.8rem;
+	height: 0.8rem;
+
+}
+
+.shangjiashijing2{
+	width: 0.8rem;
+	height: 0.8rem;
+
+}
+
+.shangjiaxinxi{
+	height: 0.98rem;
+	margin-top: 0.11rem;
+	background: #fff;
+	overflow: hidden;
+    border-bottom: 0.01rem solid #eeeeee;
+}
+
+.xinxixiaohezi{
+	width: 3.51rem;
+	height: 0.62rem;
+/* 	background: pink; */
+	margin: 0 auto;
+	margin-top: 0.2rem;
+
+/* 	border-bottom: 0.01rem solid #eeeeee; */
+}
+
+.pingjia{
+	height: 0.62rem;
+	font-size: 0.12rem;
+	margin-top: 0.16rem;
+	color: #666666;
+}
+
+
+.shangjiajiesh{
+	height: 0.45rem;
+	background: #fff;
+	overflow: hidden;
+	border-bottom: 0.01rem solid #eeeeee;
+}
+
+.xiaohezi4587{
+	height: 0.14rem;
+/* 	background: black; */
+	width: 3.51rem;
+	margin: 0 auto;
+	margin-top: 0.14rem;
+
+}
+
+.xinxiwenzi12{
+	display: block;
+	float: left;
+	height: 0.14rem;
+	font-size: 0.14rem;
+	font-weight: bold;
+	line-height: 0.14rem;
+
+}
+
+.xinxiwenzi1281{
+	display: block;
+	float: right;
+	font-size: 0.14rem;
+/* 	font-weight: bold; */
+	line-height: 0.14rem;
+	text-align: right;
+
+}
+
+.shangjiajiesh1{
+	display: block;
+	height: 0.45rem;
+	background: #fff;
+	overflow: hidden;
+	border-bottom: 0.01rem solid #eeeeee;
+}
+
